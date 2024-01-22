@@ -1,0 +1,48 @@
+#!/bin/bash
+
+umask 000
+
+# This script assumes that FLAKY_HOME has at least been temporarily defined and exported by caller.
+start_dir="$(pwd)"
+
+# Temporarily export these from script but write them to .profile
+export JAVA_HOME="$JAVA_FLAKY_HOME"
+
+echo "export FLAKY_HOME=$FLAKY_HOME" >> $HOME/.profile
+echo "export JAVA_FLAKY_HOME=$JAVA_FLAKY_HOME" >> $HOME/.profile
+echo 'export JAVA_HOME="$JAVA_FLAKY_HOME"' >> $HOME/.profile
+
+. "$HOME/.profile"
+
+cd $FLAKY_HOME/
+
+yes | sudo apt update
+
+# Install latest jdk for OKhttp
+yes | sudo apt install openjdk-8-jdk
+
+yes | sudo apt install gcc
+yes | sudo apt install g++
+yes | sudo apt install make
+yes | sudo apt install gnulib
+yes | sudo apt install npm # For apache ambari
+
+sudo npm install -g brunch # For apache ambari
+
+yes | sudo apt install parallel
+
+cd $FLAKY_HOME/
+. ./shell_scripts/node-install-python39.sh
+cd $FLAKY_HOME/
+
+# Install Java Dependencies
+yes | sudo apt install maven
+
+. "$HOME/.profile"
+
+# Install protobuffers 2.5.0 for Hadoop tests
+. ./shell_scripts/node-install-protoc.sh
+
+cd "$start_dir"
+
+echo 'Now source or "." .profile'

@@ -1,0 +1,43 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <interactiveMode/>
+    <offline/>
+    <pluginGroups/>
+    <servers/>
+    <mirrors>
+        <mirror>
+            <id>central-spring-libs-repository</id>
+            <name>Spring Libs Repository HTTPS</name>
+            <url>https://repo.spring.io/libs-release</url>
+            <mirrorOf>repo.spring.io</mirrorOf>
+        </mirror>                     <mirror>
+        <id>central-spring-repository</id>
+        <name>Spring Repository HTTPS</name>
+        <url>https://repo.spring.io</url>
+        <mirrorOf>springcentral</mirrorOf>
+    </mirror>
+        <mirror>
+            <id>central-spring-milestones</id>
+            <name>Spring Milestones Repository HTTPS</name>
+            <url>https://repo.spring.io/milestone</url>
+            <mirrorOf>spring-milestones</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>central-spring-ext</id>
+            <name>Spring ext Repository HTTPS</name>
+            <url>https://repo.spring.io/ext-release-local</url>
+            <mirrorOf>spring-ext</mirrorOf>
+        </mirror>
+        <mirror>
+            <id>central-gradle</id>
+            <name>Spring Milestones Repository HTTPS</name>
+            <url>https://repo.gradle.org/gradle/libs-releases-local</url>
+            <mirrorOf>gradle</mirrorOf>
+        </mirror>
+    </mirrors>
+    <proxies/>
+    <profiles/>
+    <activeProfiles/>
+</settings>
