@@ -1,0 +1,3 @@
+qos-ch/logback,0f57531977287fd3d8c9046e9f68e281715f3b10,logback-classic,ch.qos.logback.classic.net.SMTPAppender_GreenTest#testCustomEvaluator,Line-613[200],1
+#TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.issues.Issue580Test#runNoCloseBlockingTestScenario7
+#TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.issues.Issue677Test#testIssue

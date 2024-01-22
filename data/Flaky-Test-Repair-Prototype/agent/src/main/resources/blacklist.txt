@@ -1,0 +1,9 @@
+agent.
+org.java_websocket.server.WebSocketServer
+org.eclipse.jetty.server.nio.SelectChannelConnector
+org.eclipse.jetty.util.resource.FileResource
+org.eclipse.jetty.util.resource.URLResource
+com.sun.
+javax.
+sun.
+java.

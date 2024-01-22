@@ -1,7 +1,7 @@
 # FlakeRake Tool Instructions
 
 ## Experimental Artifact
-An artifact including all of the output from the ICST 2024 paper describing FlakeRake is available on Zenodo at [https://zenodo.org/doi/10.5281/zenodo.7041599](https://zenodo.org/doi/10.5281/zenodo.7041599)
+Data and scripts used to prepare our article "Automatically Reproducing Timing-Dependent Flaky Test Failures" are in the folder `data` (along with a README describing the data). The data are also available on Zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7601133.svg)](https://doi.org/10.5281/zenodo.7601133)
 
 ## Installation (Tested on Ubuntu 16.04.7 LTS)
 

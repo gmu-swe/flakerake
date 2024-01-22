@@ -1,0 +1,3 @@
+#jknack/handlebars.java,c35870302c1bcc4b7b84f8f26661dfc48f8b35bd,handlebars-humanize,com.github.jknack.handlebars.HumanizeHelperTest#naturalTime
+apache/hbase,3f1087fe822fee51719bb407eee851a33a2d94a2,hbase-server,org.apache.hadoop.hbase.client.TestAdmin#testCreateTable
+#TooTallNate/Java-WebSocket,aad665473a7c31f8e225b5d9741826e12b0fbec3,.,org.java_websocket.issues.Issue677Test#testIssue,org/java_websocket/WebSocketImpl#513,100,Assertion Error: websocket.isclosing(),org/java_websocket/client/WebSocketClient#719,100

@@ -1,0 +1,8 @@
+orbit/orbit,7bcd0940f02974481cc652543ef57ec14a649ffd,actors/test/actor-tests,com.ea.orbit.actors.test.TimerTest#timerTest
+#jknack/handlebars.java,c35870302c1bcc4b7b84f8f26661dfc48f8b35bd,handlebars-humanize,com.github.jknack.handlebars.HumanizeHelperTest#naturalTime
+#apache/hbase,3f1087fe822fee51719bb407eee851a33a2d94a2,hbase-server,org.apache.hadoop.hbase.client.TestAdmin#testCreateTable
+#TooTallNate/Java-WebSocket,fa3909c391195178ccf5a92d4ac342a30ae247c8,.,org.java_websocket.issues.Issue677Test#testIssue,org/java_websocket/WebSocketImpl#513,100,Assertion Error: websocket.isclosing(),org/java_websocket/client/WebSocketClient#719,100
+#apache/httpcore,49247d208bde47f652812493e1d3576e136b8eb8,httpcore,org.apache.http.pool.TestConnPool#testLeaseTimeout,org/apache/http/pool/AbstractConnPool#233,12800,junit.framework.AssertionFailedError: null,[adding delay before test assertion can make it pass]
+#feroult/yawp,b3bcf9c958d51b3b3f8fdd0ccc26923d5a531da1,yawp-testing/yawp-testing-appengine,io.yawp.testing.appengine.pipes.flow.FlowDropsTest#testFlowDropsToSameSink,io/yawp/repository/IdRef#348,400(2000,manual),FlowDropsTest.testFlowDropsToSameSink:35->EndpointTestCaseBase.awaitAsync:334 ? Runtime,[adding delay before test assertion can make it pass (10,0000)]
+#Alluxio/alluxio,78c063ae181279d81cbc0808a684864a8c8b311c,.,tachyon.command.TFsShellTest#copyToLocalLargeTest
+#activiti/activiti,b11f757a,activiti-engine,org.activiti.engine.test.bpmn.event.end.TerminateEndEventTest#testTerminateInSubProcessWithBoundary

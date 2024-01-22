@@ -1,0 +1,11 @@
+\Use{sleepyline.cause},\Use{test.count},\Use{failureID.Uniq.Count},\Use{config.Count}
+\Use{MONITOREXIT},240   (85\%),492   (79\%),2706   (18\%)
+\Use{SYNCHRONIZED_METHOD_EXIT},239   (85\%),436   (70\%),2368   (16\%)
+\Use{MONITORENTER},238   (85\%),478   (76\%),2648   (18\%)
+\Use{SYNCHRONIZED_METHOD_ENTER},226   (80\%),426   (68\%),2276   (16\%)
+\Use{java/lang/System.currentTimeMillis()J},219   (78\%),369   (59\%),2190   (15\%)
+\Use{RUNNABLE_CALLABLE_START},196   (70\%),293   (47\%),1294   (09\%)
+\Use{java/lang/Thread.currentThread()Ljava/lang/Thread;},170   (60\%),286   (46\%),1501   (10\%)
+\Use{java/nio/channels/Selector.wakeup()Ljava/nio/channels/Selector;},130   (46\%),201   (32\%),470   (03\%)
+\Use{java/nio/ByteBuffer.array()[B},128   (46\%),205   (33\%),357   (02\%)
+\Use{java/nio/ByteBuffer.allocate(I)Ljava/nio/ByteBuffer;},124   (44\%),192   (31\%),303   (02\%)
